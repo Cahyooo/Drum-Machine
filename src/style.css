@@ -1,0 +1,30 @@
+.drum-pad {
+    background-color: grey;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.message {
+    background-color: rgb(113, 113, 113);
+    color: white;
+    font-size: 25px;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.message-p {
+    transform: translateY(7px);
+    -webkit-transform: translateY(7px);
+    -moz-transform: translateY(7px);
+    -ms-transform: translateY(7px);
+    -o-transform: translateY(7px);
+}
+
+#display {
+    width: 400px;
+}
